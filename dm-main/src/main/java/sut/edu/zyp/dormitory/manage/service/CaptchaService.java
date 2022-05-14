@@ -27,6 +27,5 @@ public interface CaptchaService {
      * @return 验证码图片
      */
     BufferedImage genCapthaImageByVerifyCode(String verifyCode,int interferenceLine);
-    
-    public void gitUpdate();
+
 }
